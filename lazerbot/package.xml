@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<package format="3">
+  <name>lazerbot</name>
+  <version>0.0.0</version>
+  <description>ROS 2 package for lazer cat toy robot</description>
+  <maintainer email="richard.osterloh@gmail.com">rosterloh</maintainer>
+  <license>Apache License 2.0</license>
+  <buildtool_depend>ament_cmake</buildtool_depend>
+  <exec_depend>lazerbot_node</exec_depend>
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>
